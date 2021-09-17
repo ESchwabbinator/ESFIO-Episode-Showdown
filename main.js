@@ -260,9 +260,9 @@ var episodes = {
         "round": 3,
     },
     "patty hype": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Shanghaied",
+        "season": 2,
+        "round": 35,
         "beat": ["Prehibernation Week", "Life of Crime"]
     },
     "pickles": {
@@ -351,7 +351,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Your Shoe's Untied", "Artist Unknown"]
+        "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"]
     },
     "sleepy time": {
         "lost": "Culture Shock",
