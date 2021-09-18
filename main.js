@@ -332,7 +332,7 @@ var episodes = {
     },
     "sb-129": {
         "lost": "Pizza Delivery",
-        "season": "2 Semi-Finals",
+        "season": "1 Semi-Finals",
         "round": 1,
         "beat": ["Hooky", "Karate Choppers", "Help Wanted"]
     },
