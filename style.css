@@ -1,3 +1,10 @@
+/* .container {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+} */
+
 #beat-result {
     padding-left: 1em;
 }

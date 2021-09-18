@@ -274,7 +274,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand"]
+        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand", "SB-129"]
     },
     "plankton!": {
         "lost": "Employee of the Month",
@@ -331,9 +331,9 @@ var episodes = {
         "round": 8
     },
     "sb-129": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Pizza Delivery",
+        "season": "2 Semi-Finals",
+        "round": 1,
         "beat": ["Hooky", "Karate Choppers", "Help Wanted"]
     },
     "scaredy pants": {
