@@ -458,6 +458,10 @@ dropdown.onchange = (function(){
     textInput.value = "";
 });
 
+textInput.oninput = (function(){
+    dropdown.value = "default";
+})
+
 submitBtn.onclick = (function(event){
     // Prevents page from reloading after submission
     event.preventDefault();
@@ -488,6 +492,7 @@ submitBtn.onclick = (function(event){
     } else {
         if(episodes[textInput.value.toLowerCase()] == undefined){
             lostResult.innerHTML = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
+            beatResult.innerHTML = "";
         } else {
             // Handle lost to sentence
             if(episodes[textInput.value.toLowerCase()]["lost"] == "") {
