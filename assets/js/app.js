@@ -4,6 +4,7 @@ var submitBtn = document.getElementById("submit-btn");
 var lostResult = document.getElementById("lost-result");
 var beatResult = document.getElementById("beat-result");
 var results = document.getElementById("results");
+var dropdown = document.getElementById("dropdown");
 
 // Episode Data
 var episodes = {
@@ -453,23 +454,55 @@ var episodes = {
     }
 };
 
+dropdown.onchange = (function(){
+    textInput.value = "";
+});
+
 submitBtn.onclick = (function(event){
+    // Prevents page from reloading after submission
     event.preventDefault();
     results.style.display = "block";
-    if(episodes[textInput.value.toLowerCase()] == undefined){
-        lostResult.innerHTML = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
-    } else {
-        // Handle lost to sentence
-        if(episodes[textInput.value.toLowerCase()]["lost"] == "") {
-            lostResult.innerHTML = "This episode has not lost yet!";
+    // If there is nothing in the text input, use the value in the dropdown...
+    if(textInput.value == "") {
+        if(dropdown.value == "default"){
+            lostResult.innerHTML = "You must choose an episode to get a result.";
+            beatResult.innerHTML = "";
         } else {
-            lostResult.innerHTML = `Lost to "${episodes[textInput.value.toLowerCase()]["lost"]}" in Season ${episodes[textInput.value.toLowerCase()]["season"]}: Round ${episodes[textInput.value.toLowerCase()]["round"]}.`;
-        }
-        // Handle beat list
-        if(episodes[textInput.value.toLowerCase()]["beat"]){
-            for(var i = 0; i < episodes[textInput.value.toLowerCase()]["beat"].length; i++) {
+            // Handle lost to sentence
+            if(episodes[dropdown.value]["lost"] == "") {
+                lostResult.innerHTML = "This episode has not lost yet!";
+            } else {
+                lostResult.innerHTML = `Lost to "${episodes[dropdown.value]["lost"]}" in Season ${episodes[dropdown.value]["season"]}: Round ${episodes[dropdown.value]["round"]}.`;
+            }
+            // Handle beat list
+            if(episodes[dropdown.value]["beat"]){
                 beatResult.innerHTML = "This episode beat: ";
-                beatResult.innerHTML += "<li>" + episodes[textInput.value.toLowerCase()]["beat"][i] + "</li>";
+                for(var i = 0; i < episodes[dropdown.value]["beat"].length; i++) {
+                    beatResult.innerHTML += "<li>" + episodes[dropdown.value]["beat"][i] + "</li>";
+                }
+            } else {
+                beatResult.innerHTML = "";
+            }
+        }
+    // ...Otherwise use the value in the text input
+    } else {
+        if(episodes[textInput.value.toLowerCase()] == undefined){
+            lostResult.innerHTML = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
+        } else {
+            // Handle lost to sentence
+            if(episodes[textInput.value.toLowerCase()]["lost"] == "") {
+                lostResult.innerHTML = "This episode has not lost yet!";
+            } else {
+                lostResult.innerHTML = `Lost to "${episodes[textInput.value.toLowerCase()]["lost"]}" in Season ${episodes[textInput.value.toLowerCase()]["season"]}: Round ${episodes[textInput.value.toLowerCase()]["round"]}.`;
+            }
+            // Handle beat list
+            if(episodes[textInput.value.toLowerCase()]["beat"]){
+                beatResult.innerHTML = "This episode beat: ";
+                for(var i = 0; i < episodes[textInput.value.toLowerCase()]["beat"].length; i++) {
+                    beatResult.innerHTML += "<li>" + episodes[textInput.value.toLowerCase()]["beat"][i] + "</li>";
+                }
+            } else {
+                beatResult.innerHTML = "";
             }
         }
     }
