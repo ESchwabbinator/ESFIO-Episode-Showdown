@@ -38,8 +38,19 @@ header {
     list-style: none;
 }
 
+#results {
+    background-color: #6fc4e1;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    display: none;
+}
+
 @media (min-width: 768px) {
     #text-input {
+        width: 50%;
+        margin: 0 auto;
+    }
+    #results {
         width: 50%;
         margin: 0 auto;
     }

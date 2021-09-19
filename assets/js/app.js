@@ -3,6 +3,7 @@ var textInput = document.getElementById("text-input");
 var submitBtn = document.getElementById("submit-btn");
 var lostResult = document.getElementById("lost-result");
 var beatResult = document.getElementById("beat-result");
+var results = document.getElementById("results");
 
 // Episode Data
 var episodes = {
@@ -454,6 +455,7 @@ var episodes = {
 
 submitBtn.onclick = (function(event){
     event.preventDefault();
+    results.style.display = "block";
     if(episodes[textInput.value.toLowerCase()] == undefined){
         lostResult.innerHTML = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
     } else {
