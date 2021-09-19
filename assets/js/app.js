@@ -22,7 +22,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Procrastination", "Something Smells", "Graveyard Shift"]
+        "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie"]
     },
     "big pink loser": {
         "lost": "Sailor Mouth",
@@ -75,9 +75,9 @@ var episodes = {
         "round": 5
     },
     "dying for pie": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Band Geeks",
+        "season": "2 Semi-Finals",
+        "round": 1,
         "beat": ["Survival of the Idiots", "Krusty Love", "Christmas Who?"]
     },
     "employee of the month": {
