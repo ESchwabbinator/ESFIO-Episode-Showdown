@@ -452,15 +452,16 @@ var episodes = {
     }
 };
 
-submitBtn.onclick = (function(){
+submitBtn.onclick = (function(event){
+    event.preventDefault();
     if(episodes[textInput.value.toLowerCase()] == undefined){
-        lostResult.innerText = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
+        lostResult.innerHTML = "Hmmm... I don't recognize that one (Tip: make sure to include any spaces or punctuation)";
     } else {
         // Handle lost to sentence
         if(episodes[textInput.value.toLowerCase()]["lost"] == "") {
-            lostResult.innerText = "This episode has not lost yet!";
+            lostResult.innerHTML = "This episode has not lost yet!";
         } else {
-            lostResult.innerText = `Lost to "${episodes[textInput.value.toLowerCase()]["lost"]}" in Season ${episodes[textInput.value.toLowerCase()]["season"]}: Round ${episodes[textInput.value.toLowerCase()]["round"]}.`;
+            lostResult.innerHTML = `Lost to "${episodes[textInput.value.toLowerCase()]["lost"]}" in Season ${episodes[textInput.value.toLowerCase()]["season"]}: Round ${episodes[textInput.value.toLowerCase()]["round"]}.`;
         }
         // Handle beat list
         if(episodes[textInput.value.toLowerCase()]["beat"]){
