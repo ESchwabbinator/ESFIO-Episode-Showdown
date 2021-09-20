@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('../images/body-background.jpg');
+    background-image: url('../images/background.png');
     /* background-repeat: repeat; */
     background-size: cover;
 }
@@ -32,6 +32,8 @@ header {
 
 .main-content {
     font-size: 1.5em;
+    background-color: #6fc4e194;
+    border-radius: 25px;
 }
 
 #beat-result {
@@ -46,12 +48,12 @@ header {
 }
 
 @media (min-width: 768px) {
-    #text-input {
+    #results, .main-content {
         width: 50%;
         margin: 0 auto;
     }
-    #results {
-        width: 50%;
+    #text-input, #dropdown {
+        width: 60%;
         margin: 0 auto;
     }
 }
