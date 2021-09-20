@@ -82,9 +82,9 @@ var episodes = {
         "beat": ["Survival of the Idiots", "Krusty Love", "Christmas Who?"]
     },
     "employee of the month": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Hall Monitor",
+        "season": "1 Semi-Finals",
+        "round": 2,
         "beat": ["Plankton!", "F.U.N.", "Naughty Nautical Neighbors", "Culture Shock"]
     },
     "fools in april": {
@@ -130,7 +130,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Nature Pants", "Boating School", "Texas"]
+        "beat": ["Nature Pants", "Boating School", "Texas", "Employee of the Month"]
     },
     "help wanted": {
         "lost": "SB-129",
