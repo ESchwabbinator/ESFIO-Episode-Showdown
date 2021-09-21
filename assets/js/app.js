@@ -319,7 +319,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["The Fry Cook Games", "Big Pink Loser", "Squidville"]
+        "beat": ["The Fry Cook Games", "Big Pink Loser", "Squidville", "Shanghaied"]
     },
     "sandy's rocket": {
         "lost": "Fools in April",
@@ -349,9 +349,9 @@ var episodes = {
         "round": "2nd round",
     },
     "shanghaied": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Sailor Mouth",
+        "season": 2,
+        "round": "Semi-Finals",
         "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"]
     },
     "sleepy time": {
