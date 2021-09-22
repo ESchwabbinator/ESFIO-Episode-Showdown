@@ -127,9 +127,9 @@ var episodes = {
         "beat": ["Bossy Boots", "Gary Takes a Bath"]
     },
     "hall monitor": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Pizza Delivery",
+        "season": 1,
+        "round": "FINALS",
         "beat": ["Nature Pants", "Boating School", "Texas", "Employee of the Month"]
     },
     "help wanted": {
@@ -275,7 +275,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand", "SB-129"]
+        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand", "SB-129", "Hall Monitor"]
     },
     "plankton!": {
         "lost": "Employee of the Month",
