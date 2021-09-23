@@ -23,7 +23,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie"]
+        "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie", "Sailor Mouth"]
     },
     "big pink loser": {
         "lost": "Sailor Mouth",
@@ -316,9 +316,9 @@ var episodes = {
         "round": "2nd round"
     },
     "sailor mouth": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Band Geeks",
+        "season": 2,
+        "round": "FINALS",
         "beat": ["The Fry Cook Games", "Big Pink Loser", "Squidville", "Shanghaied"]
     },
     "sandy's rocket": {
