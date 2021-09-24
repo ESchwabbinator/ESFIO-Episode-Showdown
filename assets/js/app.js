@@ -20,10 +20,11 @@ var episodes = {
         "beat": ["I'm Your Biggest Fanatic"]
     },
     "band geeks": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie", "Sailor Mouth"]
+        "lost": "Pizza Delivery",
+        "season": "1 & 2",
+        "round": "Championship Round",
+        "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie", "Sailor Mouth"],
+        "rank": 1
     },
     "big pink loser": {
         "lost": "Sailor Mouth",
@@ -79,13 +80,15 @@ var episodes = {
         "lost": "Band Geeks",
         "season": 2,
         "round": "Semi-Finals",
-        "beat": ["Survival of the Idiots", "Krusty Love", "Christmas Who?"]
+        "beat": ["Survival of the Idiots", "Krusty Love", "Christmas Who?"],
+        "rank": 3
     },
     "employee of the month": {
         "lost": "Hall Monitor",
         "season": 1,
         "round": "Semi-Finals",
-        "beat": ["Plankton!", "F.U.N.", "Naughty Nautical Neighbors", "Culture Shock"]
+        "beat": ["Plankton!", "F.U.N.", "Naughty Nautical Neighbors", "Culture Shock"],
+        "rank": 4
     },
     "fools in april": {
         "lost": "Bubblestand",
@@ -130,7 +133,8 @@ var episodes = {
         "lost": "Pizza Delivery",
         "season": 1,
         "round": "FINALS",
-        "beat": ["Nature Pants", "Boating School", "Texas", "Employee of the Month"]
+        "beat": ["Nature Pants", "Boating School", "Texas", "Employee of the Month"],
+        "rank": 2
     },
     "help wanted": {
         "lost": "SB-129",
@@ -275,7 +279,8 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand", "SB-129", "Hall Monitor"]
+        "beat": ["Neptune's Spatula", "Ripped Pants", "Bubblestand", "SB-129", "Hall Monitor", "Band Geeks"],
+        "rank": 1
     },
     "plankton!": {
         "lost": "Employee of the Month",
@@ -319,7 +324,8 @@ var episodes = {
         "lost": "Band Geeks",
         "season": 2,
         "round": "FINALS",
-        "beat": ["The Fry Cook Games", "Big Pink Loser", "Squidville", "Shanghaied"]
+        "beat": ["The Fry Cook Games", "Big Pink Loser", "Squidville", "Shanghaied"],
+        "rank": 2
     },
     "sandy's rocket": {
         "lost": "Fools in April",
@@ -335,7 +341,8 @@ var episodes = {
         "lost": "Pizza Delivery",
         "season": 1,
         "round": "Semi-Finals",
-        "beat": ["Hooky", "Karate Choppers", "Help Wanted"]
+        "beat": ["Hooky", "Karate Choppers", "Help Wanted"],
+        "rank": 3
     },
     "scaredy pants": {
         "lost": "Tea at the Treedome",
@@ -352,7 +359,8 @@ var episodes = {
         "lost": "Sailor Mouth",
         "season": 2,
         "round": "Semi-Finals",
-        "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"]
+        "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"],
+        "rank": 4
     },
     "sleepy time": {
         "lost": "Culture Shock",
