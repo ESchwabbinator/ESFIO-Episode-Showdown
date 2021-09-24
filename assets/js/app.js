@@ -5,6 +5,7 @@ var lostResult = document.getElementById("lost-result");
 var beatResult = document.getElementById("beat-result");
 var results = document.getElementById("results");
 var dropdown = document.getElementById("dropdown");
+var seasonRank = document.getElementById("season-rank");
 
 // Episode Data
 var episodes = {
@@ -494,6 +495,12 @@ submitBtn.onclick = (function(event){
             } else {
                 beatResult.innerHTML = "";
             }
+            // Handle season rank sentence
+            if(episodes[dropdown.value]["rank"]){
+                seasonRank.innerHTML = `Rank within its season: ${episodes[dropdown.value]["rank"]}`;
+            } else {
+                seasonRank.innerHTML = "";
+            }
         }
     // ...Otherwise use the value in the text input
     } else {
@@ -515,6 +522,12 @@ submitBtn.onclick = (function(event){
                 }
             } else {
                 beatResult.innerHTML = "";
+            }
+            // Handle season rank sentence
+            if(episodes[textInput.value.toLowerCase()]["rank"]){
+                seasonRank.innerHTML = `Rank within its season: ${episodes[textInput.value.toLowerCase()]["rank"]}`;
+            } else {
+                seasonRank.innerHTML = "";
             }
         }
     }
