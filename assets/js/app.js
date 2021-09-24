@@ -482,13 +482,14 @@ submitBtn.onclick = (function(event){
         } else {
             // Handle lost to sentence
             if(episodes[dropdown.value]["lost"] == "") {
-                lostResult.innerHTML = "This episode has not lost yet!";
+                lostResult.innerHTML = `<div class="dark-blue">This episode has not lost yet!</div>`;
             } else {
-                lostResult.innerHTML = `Lost to "${episodes[dropdown.value.toLowerCase()]["lost"]}" in the ${episodes[dropdown.value.toLowerCase()]["round"]} of Season ${episodes[dropdown.value.toLowerCase()]["season"]}.`;
+                lostResult.innerHTML = `<div class="dark-blue">This episode lost to:</div>
+                "${episodes[dropdown.value.toLowerCase()]["lost"]}" in the ${episodes[dropdown.value.toLowerCase()]["round"]} of Season ${episodes[dropdown.value.toLowerCase()]["season"]}.`;
             }
             // Handle beat list
             if(episodes[dropdown.value]["beat"]){
-                beatResult.innerHTML = "This episode beat: ";
+                beatResult.innerHTML = `<div class="dark-blue">This episode beat: </div>`;
                 for(var i = 0; i < episodes[dropdown.value]["beat"].length; i++) {
                     beatResult.innerHTML += "<li>" + episodes[dropdown.value]["beat"][i] + "</li>";
                 }
