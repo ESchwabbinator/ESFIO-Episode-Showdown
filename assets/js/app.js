@@ -248,6 +248,12 @@ var episodes = {
         "round": "2nd round",
         "beat": ["The Paper"]
     },
+    "new student starfish": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Party Pooper Pants"]
+    },
     "no free rides": {
         "lost": "Big Pink Loser",
         "season": 2,
@@ -263,6 +269,11 @@ var episodes = {
     "the paper": {
         "lost": "Neptune's Spatula",
         "season": 1,
+        "round": "1st round"
+    },
+    "party pooper pants": {
+        "lost": "New Student Starfish",
+        "season": 3,
         "round": "1st round"
     },
     "patty hype": {
@@ -287,6 +298,12 @@ var episodes = {
         "lost": "Employee of the Month",
         "season": 1,
         "round": "1st round"
+    },
+    "plankton's army": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Sponge Who Could Fly"]
     },
     "prehibernation week": {
         "lost": "Patty Hype",
@@ -380,6 +397,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["The Secret Box"]
     },
+    "the sponge who could fly": {
+        "lost": "Plankton's Army",
+        "season": 3,
+        "round": "1st round"
+    },
     "squeaky boots": {
         "lost": "Bubblestand",
         "season": 1,
@@ -464,10 +486,12 @@ var episodes = {
 
 dropdown.onchange = (function(){
     textInput.value = "";
+    results.style.display = "none";
 });
 
 textInput.oninput = (function(){
     dropdown.value = "default";
+    results.style.display = "none";
 })
 
 submitBtn.onclick = (function(event){
