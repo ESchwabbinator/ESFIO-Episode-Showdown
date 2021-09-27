@@ -23,10 +23,6 @@ header {
 }
 
 .container {
-    /* background-image: url('../images/background.png'); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
-    /* background-position: center; */
     height: 100vh;
 }
 
@@ -45,6 +41,10 @@ header {
     padding-left: 0;
 }
 
+#dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown {
+    display: none;
+}
+
 #results {
     background-color: #6fc4e1;
     /* border: 1px solid black; */
@@ -61,7 +61,7 @@ header {
         width: 50%;
         margin: 0 auto;
     }
-    #text-input, #dropdown {
+    #text-input, #season-dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown, #dropdown {
         width: 60%;
         margin: 0 auto;
     }

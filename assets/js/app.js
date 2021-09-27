@@ -4,11 +4,23 @@ var submitBtn = document.getElementById("submit-btn");
 var lostResult = document.getElementById("lost-result");
 var beatResult = document.getElementById("beat-result");
 var results = document.getElementById("results");
-var dropdown = document.getElementById("dropdown");
+// var dropdown = document.getElementById("dropdown");
 var seasonRank = document.getElementById("season-rank");
+var seasonDropdown = document.getElementById("season-dropdown");
+var season1Dropdown = document.getElementById("season-1-dropdown");
+var season2Dropdown = document.getElementById("season-2-dropdown");
+var season3Dropdown = document.getElementById("season-3-dropdown");
+var season4Dropdown = document.getElementById("season-4-dropdown");
+
+var season;
 
 // Episode Data
 var episodes = {
+    "all that glitters": {
+        "lost": "Best Day Ever",
+        "season": 4,
+        "round": "1st round"
+    },
     "arrgh!": {
         "lost": "Fools in April",
         "season": 1,
@@ -26,6 +38,12 @@ var episodes = {
         "round": "Championship Round",
         "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie", "Sailor Mouth"],
         "rank": 1
+    },
+    "best day ever": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["All That Glitters"]
     },
     "big pink loser": {
         "lost": "Sailor Mouth",
@@ -55,6 +73,12 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Squeaky Boots", "Fools in April"]
     },
+    "bummer vacation": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Driven to Tears"]
+    },
     "the chaperone": {
         "lost": "Jellyfishing",
         "season": 1,
@@ -71,6 +95,11 @@ var episodes = {
         "season": 1,
         "round": "Quarter-Finals",
         "beat": ["Sleepy Time", "Jellyfishing"]
+    },
+    "driven to tears": {
+        "lost": "Bummer Vacation",
+        "season": 4,
+        "round": "1st round"
     },
     "dumped": {
         "lost": "The Smoking Peanut",
@@ -225,6 +254,12 @@ var episodes = {
         "season": 2,
         "round": "2nd round"
     },
+    "missing identity": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Ugh"]
+    },
     "musclebob buffpants": {
         "lost": "Nature Pants",
         "season": 1,
@@ -286,6 +321,12 @@ var episodes = {
         "lost": "Texas",
         "season": 1,
         "round": "2nd round"
+    },
+    "the pink purloiner": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Thing"]
     },
     "pizza delivery": {
         "lost": "",
@@ -457,6 +498,16 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Pickles", "Jellyfish Jam"]
     },
+    "the thing": {
+        "lost": "The Pink Purloiner",
+        "season": 4,
+        "round": "1st round",
+    },
+    "ugh": {
+        "lost": "Missing Identity",
+        "season": 3,
+        "round": "1st round"
+    },
     "valentine's day": {
         "lost": "Squeaky Boots",
         "season": 1,
@@ -484,45 +535,96 @@ var episodes = {
     }
 };
 
-dropdown.onchange = (function(){
+// Clears results if text input is changed
+textInput.oninput = (function(){
+    seasonDropdown.value = "default";
+    season1Dropdown.style.display = "none";
+    season2Dropdown.style.display = "none";
+    season3Dropdown.style.display = "none";
+    season4Dropdown.style.display = "none";
+    results.style.display = "none";
+})
+
+seasonDropdown.onchange = (function(){
+    // Only show episodes from season in season dropdown
+    var value = this.value;
+    if(value == 1){
+        season1Dropdown.style.display = "block";
+        season2Dropdown.style.display = "none";
+        season3Dropdown.style.display = "none";
+        season4Dropdown.style.display = "none";
+        season = 1;
+    } else if(value == 2){
+        season2Dropdown.style.display = "block";
+        season1Dropdown.style.display = "none";
+        season3Dropdown.style.display = "none";
+        season4Dropdown.style.display = "none";
+        season = 2;
+    } else if(value == 3){
+        season3Dropdown.style.display = "block";
+        season1Dropdown.style.display = "none";
+        season2Dropdown.style.display = "none";
+        season4Dropdown.style.display = "none";
+        season = 3;
+    } else if(value == 4){
+        season4Dropdown.style.display = "block";
+        season1Dropdown.style.display = "none";
+        season2Dropdown.style.display = "none";
+        season3Dropdown.style.display = "none";
+        season = 4;
+    }
+    // Sets episode dropdowns to default
+    season1Dropdown.value = "default";
+    season2Dropdown.value = "default";
+    season3Dropdown.value = "default";
+    season4Dropdown.value = "default";
+    // Clears results
     textInput.value = "";
     results.style.display = "none";
 });
 
-textInput.oninput = (function(){
-    dropdown.value = "default";
-    results.style.display = "none";
-})
+season1Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
 
-submitBtn.onclick = (function(event){
-    // Prevents page from reloading after submission
-    event.preventDefault();
-    results.style.display = "block";
+season2Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
+
+season3Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
+
+season4Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
+
+function generateResults(dropdownValue){
     // If there is nothing in the text input, use the value in the dropdown...
     if(textInput.value == "") {
-        if(dropdown.value == "default"){
+        if(dropdownValue == "default" || seasonDropdown.value == "default"){
             lostResult.innerHTML = "You must choose an episode to get a result.";
             beatResult.innerHTML = "";
         } else {
             // Handle lost to sentence
-            if(episodes[dropdown.value]["lost"] == "") {
+            if(episodes[dropdownValue]["lost"] == "") {
                 lostResult.innerHTML = `<div class="dark-blue">This episode has not lost yet!</div>`;
             } else {
                 lostResult.innerHTML = `<div class="dark-blue">This episode lost to:</div>
-                "${episodes[dropdown.value.toLowerCase()]["lost"]}" in the ${episodes[dropdown.value.toLowerCase()]["round"]} of Season ${episodes[dropdown.value.toLowerCase()]["season"]}.`;
+                "${episodes[dropdownValue.toLowerCase()]["lost"]}" in the ${episodes[dropdownValue.toLowerCase()]["round"]} of Season ${episodes[dropdownValue.toLowerCase()]["season"]}.`;
             }
             // Handle beat list
-            if(episodes[dropdown.value]["beat"]){
+            if(episodes[dropdownValue]["beat"]){
                 beatResult.innerHTML = `<div class="dark-blue">This episode beat: </div>`;
-                for(var i = 0; i < episodes[dropdown.value]["beat"].length; i++) {
-                    beatResult.innerHTML += "<li>" + episodes[dropdown.value]["beat"][i] + "</li>";
+                for(var i = 0; i < episodes[dropdownValue]["beat"].length; i++) {
+                    beatResult.innerHTML += "<li>" + episodes[dropdownValue]["beat"][i] + "</li>";
                 }
             } else {
                 beatResult.innerHTML = "";
             }
             // Handle season rank sentence
-            if(episodes[dropdown.value]["rank"]){
-                seasonRank.innerHTML = `Rank within its season: ${episodes[dropdown.value]["rank"]}`;
+            if(episodes[dropdownValue]["rank"]){
+                seasonRank.innerHTML = `Rank within its season: ${episodes[dropdownValue]["rank"]}`;
             } else {
                 seasonRank.innerHTML = "";
             }
@@ -535,13 +637,14 @@ submitBtn.onclick = (function(event){
         } else {
             // Handle lost to sentence
             if(episodes[textInput.value.toLowerCase()]["lost"] == "") {
-                lostResult.innerHTML = "This episode has not lost yet!";
+                lostResult.innerHTML = `<div class="dark-blue">This episode has not lost yet!</div>`;
             } else {
-                lostResult.innerHTML = `Lost to "${episodes[textInput.value.toLowerCase()]["lost"]}" in the ${episodes[textInput.value.toLowerCase()]["round"]} of Season ${episodes[textInput.value.toLowerCase()]["season"]}.`;
+                lostResult.innerHTML = `<div class="dark-blue">This episode lost to:</div>
+                "${episodes[textInput.value.toLowerCase()]["lost"]}" in the ${episodes[textInput.value.toLowerCase()]["round"]} of Season ${episodes[textInput.value.toLowerCase()]["season"]}.`;
             }
             // Handle beat list
             if(episodes[textInput.value.toLowerCase()]["beat"]){
-                beatResult.innerHTML = "This episode beat: ";
+                beatResult.innerHTML = `<div class="dark-blue">This episode beat: </div>`;
                 for(var i = 0; i < episodes[textInput.value.toLowerCase()]["beat"].length; i++) {
                     beatResult.innerHTML += "<li>" + episodes[textInput.value.toLowerCase()]["beat"][i] + "</li>";
                 }
@@ -555,5 +658,23 @@ submitBtn.onclick = (function(event){
                 seasonRank.innerHTML = "";
             }
         }
+    }
+}
+
+submitBtn.onclick = (function(event){
+    // Prevents page from reloading after submission
+    event.preventDefault();
+    results.style.display = "block";
+
+    if(season == 1){
+        generateResults(season1Dropdown.value);
+    } else if(season == 2){
+        generateResults(season2Dropdown.value);
+    } else if(season == 3){
+        generateResults(season3Dropdown.value);
+    } else if(season == 4) {
+        generateResults(season4Dropdown.value);
+    } else {
+        generateResults();
     }
 });
