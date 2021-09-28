@@ -58,11 +58,25 @@ header {
 
 @media (min-width: 768px) {
     #results, .main-content {
-        width: 50%;
+        width: 75%;
         margin: 0 auto;
     }
     #text-input, #season-dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown, #dropdown {
         width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    #results, .main-content {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    #results, .main-content {
+        width: 50%;
         margin: 0 auto;
     }
 }
