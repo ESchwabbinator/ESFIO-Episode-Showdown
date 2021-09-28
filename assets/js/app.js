@@ -96,6 +96,12 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Sleepy Time", "Jellyfishing"]
     },
+    "doing time": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Great Snail Race"]
+    },
     "driven to tears": {
         "lost": "Bummer Vacation",
         "season": 4,
@@ -159,6 +165,11 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Bossy Boots", "Gary Takes a Bath"]
     },
+    "the great snail race": {
+        "lost": "Doing Time",
+        "season": 3,
+        "round": "1st round"
+    },
     "hall monitor": {
         "lost": "Pizza Delivery",
         "season": 1,
@@ -171,6 +182,12 @@ var episodes = {
         "season": 1,
         "round": "Quarter-Finals",
         "beat": ["Home Sweet Pineapple", "Tea at the Treedome"]
+    },
+    "hocus pocus": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Squid Wood"]
     },
     "home sweet pineapple": {
         "lost": "Help Wanted",
@@ -452,6 +469,11 @@ var episodes = {
     "squid on strike": {
         "lost": "Squidville",
         "season": 2,
+        "round": "1st round"
+    },
+    "squid wood": {
+        "lost": "Hocus Pocus",
+        "season": 4,
         "round": "1st round"
     },
     "squid's day off": {
