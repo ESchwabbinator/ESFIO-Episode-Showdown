@@ -271,6 +271,17 @@ var episodes = {
         "season": 2,
         "round": "2nd round"
     },
+    "mermaid man and barnacle boy iv": {
+        "lost": "Mid-Life Crustacean",
+        "season": 3,
+        "round": "1st round"
+    },
+    "mid-life crustacean": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Mermaid Man and Barnacle Boy IV"]
+    },
     "missing identity": {
         "lost": "",
         "season": null,
@@ -395,6 +406,12 @@ var episodes = {
         "lost": "Ripped Pants",
         "season": 1,
         "round": "2nd round"
+    },
+    "rule of dumb": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Wigstruck"]
     },
     "sailor mouth": {
         "lost": "Band Geeks",
@@ -544,6 +561,11 @@ var episodes = {
         "lost": "Squidville",
         "season": 2,
         "round": "2nd round"
+    },
+    "wigstruck": {
+        "lost": "Rule of Dumb",
+        "season": 4,
+        "round": "1st round"
     },
     "wormy": {
         "lost": "Procrastination",
