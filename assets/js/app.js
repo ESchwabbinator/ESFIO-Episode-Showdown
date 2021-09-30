@@ -154,6 +154,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["I'm With Stupid", "Mermaid Man and Barnacle Boy III"]
     },
+    "the gift of gum": {
+        "lost": "Wishing You Well",
+        "season": 4,
+        "round": "1st round"
+    },
     "grandma's kisses": {
         "lost": "No Free Rides",
         "season": 2,
@@ -566,6 +571,12 @@ var episodes = {
         "lost": "Rule of Dumb",
         "season": 4,
         "round": "1st round"
+    },
+    "wishing you well": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Gift of Gum"]
     },
     "wormy": {
         "lost": "Procrastination",
