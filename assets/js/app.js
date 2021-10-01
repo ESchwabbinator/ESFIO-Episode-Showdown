@@ -16,6 +16,11 @@ var season;
 
 // Episode Data
 var episodes = {
+    "the algae's always greener": {
+        "lost": "Mermaid Man and Barnacle Boy V",
+        "season": 3,
+        "round": "2nd round"
+    },
     "all that glitters": {
         "lost": "Best Day Ever",
         "season": 4,
@@ -255,6 +260,12 @@ var episodes = {
         "round": "3rd round",
         "beat": ["Squirrel Jokes"]
     },
+    "krusty towers": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Squidtastic Voyage"]
+    },
     "life of crime": {
         "lost": "Patty Hype",
         "season": 2,
@@ -280,6 +291,12 @@ var episodes = {
         "lost": "Mid-Life Crustacean",
         "season": 3,
         "round": "1st round"
+    },
+    "mermaid man and barnacle boy v": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Algae's Always Greener"]
     },
     "mid-life crustacean": {
         "lost": "",
@@ -501,6 +518,11 @@ var episodes = {
     "squid's day off": {
         "lost": "Frankendoodle",
         "season": 2,
+        "round": "2nd round"
+    },
+    "squidtastic voyage": {
+        "lost": "Krusty Towers",
+        "season": 4,
         "round": "2nd round"
     },
     "squidville": {
