@@ -95,6 +95,11 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["The Smoking Peanut", "Imitation Krabs"]
     },
+    "clams": {
+        "lost": "Nasty Patty",
+        "season": 3,
+        "round": "2nd round"
+    },
     "culture shock": {
         "lost": "Employee of the Month",
         "season": 1,
@@ -130,6 +135,12 @@ var episodes = {
         "round": "Semi-Finals",
         "beat": ["Plankton!", "F.U.N.", "Naughty Nautical Neighbors", "Culture Shock"],
         "rank": 4
+    },
+    "fear of a krabby patty": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Karate Island"]
     },
     "fools in april": {
         "lost": "Bubblestand",
@@ -254,6 +265,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["Reef Blower"]
     },
+    "karate island": {
+        "lost": "Fear of a Krabby Patty",
+        "season": 4,
+        "round": "2nd round"
+    },
     "krusty love": {
         "lost": "Dying for Pie",
         "season": 2,
@@ -314,6 +330,12 @@ var episodes = {
         "lost": "Nature Pants",
         "season": 1,
         "round": "1st round"
+    },
+    "nasty patty": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Clams"]
     },
     "nature pants": {
         "lost": "Hall Monitor",
