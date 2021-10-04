@@ -45,9 +45,9 @@ var episodes = {
         "rank": 1
     },
     "best day ever": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krabs vs Plankton",
+        "season": 4,
+        "round": "2nd round",
         "beat": ["All That Glitters"]
     },
     "big pink loser": {
@@ -100,6 +100,12 @@ var episodes = {
         "season": 3,
         "round": "2nd round"
     },
+    "club spongebob": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Rock-a-Bye Bivalve"]
+    },
     "culture shock": {
         "lost": "Employee of the Month",
         "season": 1,
@@ -122,6 +128,18 @@ var episodes = {
         "season": 2,
         "round": "1st round"
     },
+    "dunces and dragons": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Whale of a Birthday"]
+    },
+    "fear of a krabby patty": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Karate Island"]
+    },
     "dying for pie": {
         "lost": "Band Geeks",
         "season": 2,
@@ -135,6 +153,12 @@ var episodes = {
         "round": "Semi-Finals",
         "beat": ["Plankton!", "F.U.N.", "Naughty Nautical Neighbors", "Culture Shock"],
         "rank": 4
+    },
+    "enemy-in-law": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Good Neighbors"]
     },
     "fear of a krabby patty": {
         "lost": "",
@@ -175,6 +199,11 @@ var episodes = {
         "season": 4,
         "round": "1st round"
     },
+    "good neighbors": {
+        "lost": "Enemy-in-Law",
+        "season": 4,
+        "round": "2nd round"
+    },
     "grandma's kisses": {
         "lost": "No Free Rides",
         "season": 2,
@@ -190,6 +219,11 @@ var episodes = {
         "lost": "Doing Time",
         "season": 3,
         "round": "1st round"
+    },
+    "i had an accident": {
+        "lost": "Wet Painters",
+        "season": 3,
+        "round": "2nd round"
     },
     "hall monitor": {
         "lost": "Pizza Delivery",
@@ -269,6 +303,12 @@ var episodes = {
         "lost": "Fear of a Krabby Patty",
         "season": 4,
         "round": "2nd round"
+    },
+    "krabs vs plankton": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Best Day Ever"]
     },
     "krusty love": {
         "lost": "Dying for Pie",
@@ -356,9 +396,9 @@ var episodes = {
         "beat": ["The Paper"]
     },
     "new student starfish": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Snowball Effect",
+        "season": 3,
+        "round": "2nd round",
         "beat": ["Party Pooper Pants"]
     },
     "no free rides": {
@@ -451,6 +491,11 @@ var episodes = {
         "season": 1,
         "round": "2nd round"
     },
+    "rock-a-bye bivalve": {
+        "lost": "Club SpongeBob",
+        "season": 3,
+        "round": "2nd round"
+    },
     "rule of dumb": {
         "lost": "",
         "season": null,
@@ -509,6 +554,12 @@ var episodes = {
         "season": 2,
         "round": "2nd round",
         "beat": ["Dumped (HAH!)"]
+    },
+    "snowball effect": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["New Student Starfish"]
     },
     "something smells": {
         "lost": "Band Geeks",
@@ -609,6 +660,17 @@ var episodes = {
     "welcome to the chum bucket": {
         "lost": "Squidville",
         "season": 2,
+        "round": "2nd round"
+    },
+    "wet painters": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["I Had an Accident"]
+    },
+    "whale of a birthday": {
+        "lost": "Dunces and Dragons",
+        "season": 4,
         "round": "2nd round"
     },
     "wigstruck": {
