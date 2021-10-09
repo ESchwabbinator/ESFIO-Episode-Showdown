@@ -62,6 +62,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["Mermaid Man and Barnacle Boy"]
     },
+    "born to be wild": {
+        "lost": "New Leaf",
+        "season": 4,
+        "round": "2nd round"
+    },
     "bossy boots": {
         "lost": "Graveyard Shift",
         "season": 2,
@@ -79,10 +84,16 @@ var episodes = {
         "beat": ["Squeaky Boots", "Fools in April"]
     },
     "bummer vacation": {
+        "lost": "Selling Out",
+        "season": 4,
+        "round": "2nd round",
+        "beat": ["Driven to Tears"]
+    },
+    "the camping episode": {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Driven to Tears"]
+        "beat": ["Missing Identity"]
     },
     "the chaperone": {
         "lost": "Jellyfishing",
@@ -113,9 +124,9 @@ var episodes = {
         "beat": ["Sleepy Time", "Jellyfishing"]
     },
     "doing time": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Squilliam Returns",
+        "season": 3,
+        "round": "2nd round",
         "beat": ["The Great Snail Race"]
     },
     "driven to tears": {
@@ -232,6 +243,11 @@ var episodes = {
         "beat": ["Nature Pants", "Boating School", "Texas", "Employee of the Month"],
         "rank": 2
     },
+    "have you seen this snail?": {
+        "lost": "The Pink Purloiner",
+        "season": 4,
+        "round": "2nd round"
+    },
     "help wanted": {
         "lost": "SB-129",
         "season": 1,
@@ -239,9 +255,9 @@ var episodes = {
         "beat": ["Home Sweet Pineapple", "Tea at the Treedome"]
     },
     "hocus pocus": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "The Lost Mattress",
+        "season": 4,
+        "round": "2nd round",
         "beat": ["Squid Wood"]
     },
     "home sweet pineapple": {
@@ -293,6 +309,12 @@ var episodes = {
         "round": "3rd round",
         "beat": ["The Chaperone", "Mermaid Man and Barnacle Boy II"]
     },
+    "just one bite": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Plankton's Army"]
+    },
     "karate choppers": {
         "lost": "SB-129",
         "season": 1,
@@ -328,6 +350,12 @@ var episodes = {
         "round": "3rd round",
         "beat": ["Jellyfish Hunter"]
     },
+    "the lost mattress": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Hocus Pocus"]
+    },
     "mermaid man and barnacle boy": {
         "lost": "Boating School",
         "season": 1,
@@ -361,9 +389,9 @@ var episodes = {
         "beat": ["Mermaid Man and Barnacle Boy IV"]
     },
     "missing identity": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "The Camping Episode",
+        "season": 3,
+        "round": "2nd round",
         "beat": ["Ugh"]
     },
     "musclebob buffpants": {
@@ -395,6 +423,12 @@ var episodes = {
         "round": "2nd round",
         "beat": ["The Paper"]
     },
+    "new leaf": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Born to Be Wild"]
+    },
     "new student starfish": {
         "lost": "Snowball Effect",
         "season": 3,
@@ -406,6 +440,12 @@ var episodes = {
         "season": 2,
         "round": "2nd round",
         "beat": ["Grandma's Kisses"]
+    },
+    "no weenies allowed": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Pranks a Lot"]
     },
     "opposite day": {
         "lost": "Jellyfish Jam",
@@ -438,7 +478,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["The Thing"]
+        "beat": ["The Thing", "Have You Seen This Snail?"]
     },
     "pizza delivery": {
         "lost": "",
@@ -453,10 +493,15 @@ var episodes = {
         "round": "1st round"
     },
     "plankton's army": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Just One Bite",
+        "season": 3,
+        "round": "2nd round",
         "beat": ["The Sponge Who Could Fly"]
+    },
+    "pranks a lot": {
+        "lost": "No Weenies Allowed",
+        "season": 3,
+        "round": "2nd round"
     },
     "prehibernation week": {
         "lost": "Patty Hype",
@@ -537,6 +582,12 @@ var episodes = {
         "season": 2,
         "round": "2nd round",
     },
+    "selling out": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Bummer Vacation"]
+    },
     "shanghaied": {
         "lost": "Sailor Mouth",
         "season": 2,
@@ -608,6 +659,12 @@ var episodes = {
         "lost": "Opposite Day",
         "season": 1,
         "round": "1st round"
+    },
+    "squilliam returns": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Doing Time"]
     },
     "squirrel jokes": {
         "lost": "Krusty Love",
