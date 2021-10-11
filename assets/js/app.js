@@ -83,6 +83,11 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Squeaky Boots", "Fools in April"]
     },
+    "the bully": {
+        "lost": "SpongeBob Meets the Strangler",
+        "season": 3,
+        "round": "2nd round"
+    },
     "bummer vacation": {
         "lost": "Selling Out",
         "season": 4,
@@ -326,6 +331,11 @@ var episodes = {
         "season": 4,
         "round": "2nd round"
     },
+    "krabby land": {
+        "lost": "Mid-Life Crustacean",
+        "season": 3,
+        "round": "2nd round"
+    },
     "krabs vs plankton": {
         "lost": "",
         "season": null,
@@ -386,7 +396,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Mermaid Man and Barnacle Boy IV"]
+        "beat": ["Mermaid Man and Barnacle Boy IV", "Krabby Land"]
     },
     "missing identity": {
         "lost": "The Camping Episode",
@@ -462,6 +472,12 @@ var episodes = {
         "lost": "New Student Starfish",
         "season": 3,
         "round": "1st round"
+    },
+    "patrick smartpants": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["SquidBob TentaclePants"]
     },
     "patty hype": {
         "lost": "Shanghaied",
@@ -542,9 +558,9 @@ var episodes = {
         "round": "2nd round"
     },
     "rule of dumb": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Skill Crane",
+        "season": 4,
+        "round": "2nd round",
         "beat": ["Wigstruck"]
     },
     "sailor mouth": {
@@ -595,6 +611,12 @@ var episodes = {
         "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"],
         "rank": 4
     },
+    "skill crane": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Rule of Dumb"]
+    },
     "sleepy time": {
         "lost": "Culture Shock",
         "season": 1,
@@ -623,6 +645,12 @@ var episodes = {
         "season": 3,
         "round": "1st round"
     },
+    "spongebob meets the strangler": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Bully"]
+    },
     "squeaky boots": {
         "lost": "Bubblestand",
         "season": 1,
@@ -642,6 +670,11 @@ var episodes = {
     "squid's day off": {
         "lost": "Frankendoodle",
         "season": 2,
+        "round": "2nd round"
+    },
+    "squidbob tentaclepants": {
+        "lost": "Patrick SmartPants",
+        "season": 4,
         "round": "2nd round"
     },
     "squidtastic voyage": {
