@@ -37,6 +37,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["I'm Your Biggest Fanatic"]
     },
+    "as seen on tv": {
+        "lost": "One Krab's Trash",
+        "season": 3,
+        "round": "2nd round"
+    },
     "band geeks": {
         "lost": "Pizza Delivery",
         "season": "1 & 2",
@@ -49,6 +54,12 @@ var episodes = {
         "season": 4,
         "round": "2nd round",
         "beat": ["All That Glitters"]
+    },
+    "best frenemies": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Once Bitten"]
     },
     "big pink loser": {
         "lost": "Sailor Mouth",
@@ -204,6 +215,12 @@ var episodes = {
         "season": 1,
         "round": "2nd round"
     },
+    "funny pants": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Wishing You Well"]
+    },
     "gary takes a bath": {
         "lost": "Graveyard Shift",
         "season": 2,
@@ -331,6 +348,12 @@ var episodes = {
         "season": 4,
         "round": "2nd round"
     },
+    "krab borg": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["My Pretty Seahorse"]
+    },
     "krabby land": {
         "lost": "Mid-Life Crustacean",
         "season": 3,
@@ -409,6 +432,11 @@ var episodes = {
         "season": 1,
         "round": "1st round"
     },
+    "my pretty seahorse": {
+        "lost": "Krab Borg",
+        "season": 3,
+        "round": "2nd round"
+    },
     "nasty patty": {
         "lost": "",
         "season": null,
@@ -456,6 +484,17 @@ var episodes = {
         "season": null,
         "round": null,
         "beat": ["Pranks a Lot"]
+    },
+    "once bitten": {
+        "lost": "Best Frenemies",
+        "season": 4,
+        "round": "2nd round"
+    },
+    "one krab's trash": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["As Seen on TV"]
     },
     "opposite day": {
         "lost": "Jellyfish Jam",
@@ -769,9 +808,9 @@ var episodes = {
         "round": "1st round"
     },
     "wishing you well": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Funny Pants",
+        "season": 4,
+        "round": "2nd round",
         "beat": ["The Gift of Gum"]
     },
     "wormy": {
