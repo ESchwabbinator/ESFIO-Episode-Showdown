@@ -209,9 +209,9 @@ var episodes = {
         "beat": ["Good Neighbors"]
     },
     "fear of a krabby patty": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krusty Towers",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Karate Island"]
     },
     "fools in april": {
@@ -413,7 +413,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Squidtastic Voyage"]
+        "beat": ["Squidtastic Voyage", "Fear of a Krabby Patty"]
     },
     "life of crime": {
         "lost": "Patty Hype",
@@ -448,9 +448,9 @@ var episodes = {
         "round": "1st round"
     },
     "mermaid man and barnacle boy v": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Nasty Patty",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["The Algae's Always Greener"]
     },
     "mermaid man & barnacle boy vi": {
@@ -491,7 +491,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Clams"]
+        "beat": ["Clams", "Mermaid Man and Barnacle Boy V"]
     },
     "nature pants": {
         "lost": "Hall Monitor",
