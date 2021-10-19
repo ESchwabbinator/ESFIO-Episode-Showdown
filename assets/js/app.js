@@ -111,10 +111,20 @@ var episodes = {
         "round": null,
         "beat": ["Missing Identity"]
     },
+    "can you spare a dime?": {
+        "lost": "Krusty Krab Training Video",
+        "season": 3,
+        "round": "2nd round"
+    },
     "the chaperone": {
         "lost": "Jellyfishing",
         "season": 1,
         "round": "1st round"
+    },
+    "chimps ahoy": {
+        "lost": "Mermaid Man & Barnacle Boy VI",
+        "season": 4,
+        "round": "2nd round"
     },
     "christmas who?": {
         "lost": "Dying for Pie",
@@ -365,6 +375,12 @@ var episodes = {
         "round": null,
         "beat": ["Best Day Ever"]
     },
+    "krusty krab training video": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Can You Spare a Dime?"]
+    },
     "krusty love": {
         "lost": "Dying for Pie",
         "season": 2,
@@ -414,6 +430,12 @@ var episodes = {
         "season": null,
         "round": null,
         "beat": ["The Algae's Always Greener"]
+    },
+    "mermaid man & barnacle boy vi": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Chimps Ahoy"]
     },
     "mid-life crustacean": {
         "lost": "",
