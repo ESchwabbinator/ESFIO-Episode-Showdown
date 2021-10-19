@@ -73,6 +73,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["Mermaid Man and Barnacle Boy"]
     },
+    "born again krabs": {
+        "lost": "Idiot Box",
+        "season": 3,
+        "round": "2nd round"
+    },
     "born to be wild": {
         "lost": "New Leaf",
         "season": 4,
@@ -237,6 +242,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["I'm With Stupid", "Mermaid Man and Barnacle Boy III"]
     },
+    "ghost host": {
+        "lost": "Shell of a Man",
+        "season": 4,
+        "round": "2nd round"
+    },
     "the gift of gum": {
         "lost": "Wishing You Well",
         "season": 4,
@@ -317,6 +327,12 @@ var episodes = {
         "season": 2,
         "round": "2nd round",
         "beat": ["Sandy, SpongeBob, and the Worm"]
+    },
+    "idiot box": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Born Again Krabs"]
     },
     "imitation krabs": {
         "lost": "Cristmas Who?",
@@ -671,6 +687,12 @@ var episodes = {
         "round": "Semi-Finals",
         "beat": ["Your Shoe's Untied", "Artist Unknown", "Patty Hype"],
         "rank": 4
+    },
+    "shell of a man": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Ghost Host"]
     },
     "skill crane": {
         "lost": "",
