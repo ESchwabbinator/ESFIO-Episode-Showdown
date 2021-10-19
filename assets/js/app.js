@@ -131,6 +131,12 @@ var episodes = {
         "season": 4,
         "round": "2nd round"
     },
+    "chocolate with nuts": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["SpongeGuard on Duty"]
+    },
     "christmas who?": {
         "lost": "Dying for Pie",
         "season": 2,
@@ -465,6 +471,12 @@ var episodes = {
         "round": "2nd round",
         "beat": ["Ugh"]
     },
+    "mrs. puff, you're fired": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["That's No Lady"]
+    },
     "musclebob buffpants": {
         "lost": "Nature Pants",
         "season": 1,
@@ -734,6 +746,11 @@ var episodes = {
         "round": null,
         "beat": ["The Bully"]
     },
+    "spongeguard on duty": {
+        "lost": "Chocolate With Nuts",
+        "season": 3,
+        "round": "2nd round"
+    },
     "squeaky boots": {
         "lost": "Bubblestand",
         "season": 1,
@@ -809,6 +826,11 @@ var episodes = {
         "season": 1,
         "round": "Quarter-Finals",
         "beat": ["Pickles", "Jellyfish Jam"]
+    },
+    "that's no lady": {
+        "lost": "Mrs. Puff, You're Fired",
+        "season": 4,
+        "round": "2nd round"
     },
     "the thing": {
         "lost": "The Pink Purloiner",
