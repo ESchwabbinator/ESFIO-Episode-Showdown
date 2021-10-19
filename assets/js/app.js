@@ -180,7 +180,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Whale of a Birthday"]
+        "beat": ["Whale of a Birthday", "Krabs vs Plankton"]
     },
     "fear of a krabby patty": {
         "lost": "",
@@ -392,9 +392,9 @@ var episodes = {
         "round": "2nd round"
     },
     "krabs vs plankton": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Dunces and Dragons",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Best Day Ever"]
     },
     "krusty krab training video": {
@@ -724,9 +724,9 @@ var episodes = {
         "beat": ["Dumped (HAH!)"]
     },
     "snowball effect": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Wet Painters",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["New Student Starfish"]
     },
     "something smells": {
@@ -861,7 +861,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["I Had an Accident"]
+        "beat": ["I Had an Accident", "Snowball Effect"]
     },
     "whale of a birthday": {
         "lost": "Dunces and Dragons",
