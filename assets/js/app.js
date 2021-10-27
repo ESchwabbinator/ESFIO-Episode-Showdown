@@ -56,9 +56,9 @@ var episodes = {
         "beat": ["All That Glitters"]
     },
     "best frenemies": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Skill Crane",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Once Bitten"]
     },
     "big pink loser": {
@@ -114,7 +114,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Missing Identity"]
+        "beat": ["Missing Identity", "No Weenies Allowed", "Just One Bite"]
     },
     "can you spare a dime?": {
         "lost": "Krusty Krab Training Video",
@@ -132,9 +132,9 @@ var episodes = {
         "round": "2nd round"
     },
     "chocolate with nuts": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Idiot Box",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["SpongeGuard on Duty"]
     },
     "christmas who?": {
@@ -149,9 +149,9 @@ var episodes = {
         "round": "2nd round"
     },
     "club spongebob": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Just One Bite",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["Rock-a-Bye Bivalve"]
     },
     "culture shock": {
@@ -177,9 +177,9 @@ var episodes = {
         "round": "1st round"
     },
     "dunces and dragons": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krusty Towers",
+        "season": 4,
+        "round": "Quarter Finals",
         "beat": ["Whale of a Birthday", "Krabs vs Plankton"]
     },
     "fear of a krabby patty": {
@@ -203,9 +203,9 @@ var episodes = {
         "rank": 4
     },
     "enemy-in-law": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Selling Out",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Good Neighbors"]
     },
     "fear of a krabby patty": {
@@ -237,9 +237,9 @@ var episodes = {
         "round": "2nd round"
     },
     "funny pants": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Mermaid Man & Barnacle Boy VI",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Wishing You Well"]
     },
     "gary takes a bath": {
@@ -338,7 +338,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Born Again Krabs"]
+        "beat": ["Born Again Krabs", "Chocolate with Nuts"]
     },
     "imitation krabs": {
         "lost": "Cristmas Who?",
@@ -364,10 +364,10 @@ var episodes = {
         "beat": ["The Chaperone", "Mermaid Man and Barnacle Boy II"]
     },
     "just one bite": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Plankton's Army"]
+        "lost": "The Camping Episode",
+        "season": 3,
+        "round": "Quarter Finals",
+        "beat": ["Plankton's Army", "Club SpongeBob"]
     },
     "karate choppers": {
         "lost": "SB-129",
@@ -384,7 +384,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["My Pretty Seahorse"]
+        "beat": ["My Pretty Seahorse", "Mid-Life Crustacean"]
     },
     "krabby land": {
         "lost": "Mid-Life Crustacean",
@@ -401,7 +401,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Can You Spare a Dime?"]
+        "beat": ["Can You Spare a Dime?", "One Krab's Trash"]
     },
     "krusty love": {
         "lost": "Dying for Pie",
@@ -413,7 +413,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Squidtastic Voyage", "Fear of a Krabby Patty"]
+        "beat": ["Squidtastic Voyage", "Fear of a Krabby Patty", "Dunces and Dragons"]
     },
     "life of crime": {
         "lost": "Patty Hype",
@@ -425,7 +425,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Hocus Pocus"]
+        "beat": ["Hocus Pocus", "Patrick SmartPants"]
     },
     "mermaid man and barnacle boy": {
         "lost": "Boating School",
@@ -457,12 +457,12 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Chimps Ahoy"]
+        "beat": ["Chimps Ahoy", "Funny Pants"]
     },
     "mid-life crustacean": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krab Borg",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["Mermaid Man and Barnacle Boy IV", "Krabby Land"]
     },
     "missing identity": {
@@ -475,7 +475,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["That's No Lady"]
+        "beat": ["That's No Lady", "Shell of a Man"]
     },
     "musclebob buffpants": {
         "lost": "Nature Pants",
@@ -491,7 +491,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Clams", "Mermaid Man and Barnacle Boy V"]
+        "beat": ["Clams", "Mermaid Man and Barnacle Boy V", "Wet Painters"]
     },
     "nature pants": {
         "lost": "Hall Monitor",
@@ -512,9 +512,9 @@ var episodes = {
         "beat": ["The Paper"]
     },
     "new leaf": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "The Pink Purloiner",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Born to Be Wild"]
     },
     "new student starfish": {
@@ -530,9 +530,9 @@ var episodes = {
         "beat": ["Grandma's Kisses"]
     },
     "no weenies allowed": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "The Camping Episode",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["Pranks a Lot"]
     },
     "once bitten": {
@@ -541,9 +541,9 @@ var episodes = {
         "round": "2nd round"
     },
     "one krab's trash": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krusty Krab Training Video",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["As Seen on TV"]
     },
     "opposite day": {
@@ -563,9 +563,9 @@ var episodes = {
         "round": "1st round"
     },
     "patrick smartpants": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "The Lost Mattress",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["SquidBob TentaclePants"]
     },
     "patty hype": {
@@ -580,10 +580,10 @@ var episodes = {
         "round": "2nd round"
     },
     "the pink purloiner": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["The Thing", "Have You Seen This Snail?"]
+        "lost": "Selling Out",
+        "season": 4,
+        "round": "Quarter Finals",
+        "beat": ["The Thing", "Have You Seen This Snail?", "New Leaf"]
     },
     "pizza delivery": {
         "lost": "",
@@ -691,7 +691,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Bummer Vacation"]
+        "beat": ["Bummer Vacation", "Enemy In-Law", "The Pink Purloiner"]
     },
     "shanghaied": {
         "lost": "Sailor Mouth",
@@ -701,16 +701,16 @@ var episodes = {
         "rank": 4
     },
     "shell of a man": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Mrs. Puff, You're Fired",
+        "season": 4,
+        "round": "3rd round",
         "beat": ["Ghost Host"]
     },
     "skill crane": {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Rule of Dumb"]
+        "beat": ["Rule of Dumb", "Best Frenemies"]
     },
     "sleepy time": {
         "lost": "Culture Shock",
@@ -741,9 +741,9 @@ var episodes = {
         "round": "1st round"
     },
     "spongebob meets the strangler": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Squilliam Returns",
+        "season": 3,
+        "round": "3rd round",
         "beat": ["The Bully"]
     },
     "spongeguard on duty": {
@@ -797,7 +797,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Doing Time"]
+        "beat": ["Doing Time", "SpongeBob Meets the Strangler"]
     },
     "squirrel jokes": {
         "lost": "Krusty Love",
@@ -858,9 +858,9 @@ var episodes = {
         "round": "2nd round"
     },
     "wet painters": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Nasty Patty",
+        "season": 3,
+        "round": "Quarter Finals",
         "beat": ["I Had an Accident", "Snowball Effect"]
     },
     "whale of a birthday": {
