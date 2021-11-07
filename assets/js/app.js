@@ -111,10 +111,11 @@ var episodes = {
         "beat": ["Driven to Tears"]
     },
     "the camping episode": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Missing Identity", "No Weenies Allowed", "Just One Bite"]
+        "lost": "Nasty Patty",
+        "season": 3,
+        "round": "Semi Finals",
+        "beat": ["Missing Identity", "No Weenies Allowed", "Just One Bite"],
+        "rank": 3
     },
     "can you spare a dime?": {
         "lost": "Krusty Krab Training Video",
@@ -338,7 +339,8 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Born Again Krabs", "Chocolate with Nuts"]
+        "beat": ["Born Again Krabs", "Chocolate with Nuts", "Krusty Krab Training Video", "Krab Borg", "Nasty Patty"],
+        "rank": 1
     },
     "imitation krabs": {
         "lost": "Cristmas Who?",
@@ -381,10 +383,11 @@ var episodes = {
         "round": "2nd round"
     },
     "krab borg": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["My Pretty Seahorse", "Mid-Life Crustacean"]
+        "lost": "Idiot Box",
+        "season": 3,
+        "round": "Semi Finals",
+        "beat": ["My Pretty Seahorse", "Mid-Life Crustacean", "Squilliam Returns"],
+        "rank": 4
     },
     "krabby land": {
         "lost": "Mid-Life Crustacean",
@@ -398,9 +401,9 @@ var episodes = {
         "beat": ["Best Day Ever"]
     },
     "krusty krab training video": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Idiot Box",
+        "season": 3,
+        "round": "Quarter Finals",
         "beat": ["Can You Spare a Dime?", "One Krab's Trash"]
     },
     "krusty love": {
@@ -410,10 +413,11 @@ var episodes = {
         "beat": ["Squirrel Jokes"]
     },
     "krusty towers": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Squidtastic Voyage", "Fear of a Krabby Patty", "Dunces and Dragons"]
+        "lost": "Idiot Box",
+        "season": "3 & 4",
+        "round": "Championship Round",
+        "beat": ["Squidtastic Voyage", "Fear of a Krabby Patty", "Dunces and Dragons", "Selling Out", "Skill Crane"],
+        "rank": 1
     },
     "life of crime": {
         "lost": "Patty Hype",
@@ -422,9 +426,9 @@ var episodes = {
         "beat": ["Jellyfish Hunter"]
     },
     "the lost mattress": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Skill Crane",
+        "season": 3,
+        "round": "Quarter Finals",
         "beat": ["Hocus Pocus", "Patrick SmartPants"]
     },
     "mermaid man and barnacle boy": {
@@ -454,9 +458,9 @@ var episodes = {
         "beat": ["The Algae's Always Greener"]
     },
     "mermaid man & barnacle boy vi": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Mrs. Puff, You're Fired",
+        "season": 4,
+        "round": "Quarter Finals",
         "beat": ["Chimps Ahoy", "Funny Pants"]
     },
     "mid-life crustacean": {
@@ -472,10 +476,11 @@ var episodes = {
         "beat": ["Ugh"]
     },
     "mrs. puff, you're fired": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["That's No Lady", "Shell of a Man"]
+        "lost": "Skill Crane",
+        "season": 4,
+        "round": "Semi Finals",
+        "beat": ["That's No Lady", "Shell of a Man", "Mermaid Man & Barnacle Boy VI"],
+        "rank": 3
     },
     "musclebob buffpants": {
         "lost": "Nature Pants",
@@ -488,10 +493,11 @@ var episodes = {
         "round": "2nd round"
     },
     "nasty patty": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Clams", "Mermaid Man and Barnacle Boy V", "Wet Painters"]
+        "lost": "Idiot Box",
+        "season": 3,
+        "round": "FINALS",
+        "beat": ["Clams", "Mermaid Man and Barnacle Boy V", "Wet Painters", "The Camping Episode"],
+        "rank": 2
     },
     "nature pants": {
         "lost": "Hall Monitor",
@@ -688,10 +694,11 @@ var episodes = {
         "round": "2nd round",
     },
     "selling out": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Bummer Vacation", "Enemy In-Law", "The Pink Purloiner"]
+        "lost": "Krusty Towers",
+        "season": 4,
+        "round": "Semi Finals",
+        "beat": ["Bummer Vacation", "Enemy In-Law", "The Pink Purloiner"],
+        "rank": 4
     },
     "shanghaied": {
         "lost": "Sailor Mouth",
@@ -707,10 +714,11 @@ var episodes = {
         "beat": ["Ghost Host"]
     },
     "skill crane": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Rule of Dumb", "Best Frenemies"]
+        "lost": "Krusty Towers",
+        "season": 4,
+        "round": "FINALS",
+        "beat": ["Rule of Dumb", "Best Frenemies", "The Lost Mattress", "Mrs. Puff, You're Fired"],
+        "rank": 2
     },
     "sleepy time": {
         "lost": "Culture Shock",
@@ -794,9 +802,9 @@ var episodes = {
         "round": "1st round"
     },
     "squilliam returns": {
-        "lost": "",
-        "season": null,
-        "round": null,
+        "lost": "Krab Borg",
+        "season": 3,
+        "round": "Quarter Finals",
         "beat": ["Doing Time", "SpongeBob Meets the Strangler"]
     },
     "squirrel jokes": {
