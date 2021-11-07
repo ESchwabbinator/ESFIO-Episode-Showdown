@@ -41,7 +41,7 @@ header {
     padding-left: 0;
 }
 
-#dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown {
+#dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown, #season-5-dropdown, #season-6-dropdown {
     display: none;
 }
 
@@ -61,7 +61,7 @@ header {
         width: 75%;
         margin: 0 auto;
     }
-    #text-input, #season-dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown, #dropdown {
+    #text-input, #season-dropdown, #season-1-dropdown, #season-2-dropdown, #season-3-dropdown, #season-4-dropdown, #season-5-dropdown, #season-6-dropdown, #dropdown {
         width: 60%;
         margin: 0 auto;
     }

@@ -11,11 +11,19 @@ var season1Dropdown = document.getElementById("season-1-dropdown");
 var season2Dropdown = document.getElementById("season-2-dropdown");
 var season3Dropdown = document.getElementById("season-3-dropdown");
 var season4Dropdown = document.getElementById("season-4-dropdown");
+var season5Dropdown = document.getElementById("season-5-dropdown");
+var season6Dropdown = document.getElementById("season-6-dropdown");
 
 var season;
 
 // Episode Data
 var episodes = {
+    "20,000 patties under the sea": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["SpongeHenge"]
+    },
     "the algae's always greener": {
         "lost": "Mermaid Man and Barnacle Boy V",
         "season": 3,
@@ -41,6 +49,12 @@ var episodes = {
         "lost": "One Krab's Trash",
         "season": 3,
         "round": "2nd round"
+    },
+    "atlantis squarepantis": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["What Ever Happened to SpongeBob?"]
     },
     "band geeks": {
         "lost": "Pizza Delivery",
@@ -138,6 +152,11 @@ var episodes = {
         "round": "3rd round",
         "beat": ["SpongeGuard on Duty"]
     },
+    "choir boys": {
+        "lost": "Nautical Novice",
+        "season": 6,
+        "round": "1st round"
+    },
     "christmas who?": {
         "lost": "Dying for Pie",
         "season": 2,
@@ -161,6 +180,11 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["Sleepy Time", "Jellyfishing"]
     },
+    "ditchin'": {
+        "lost": "Gone",
+        "season": 6,
+        "round": "1st round"
+    },
     "doing time": {
         "lost": "Squilliam Returns",
         "season": 3,
@@ -182,12 +206,6 @@ var episodes = {
         "season": 4,
         "round": "Quarter Finals",
         "beat": ["Whale of a Birthday", "Krabs vs Plankton"]
-    },
-    "fear of a krabby patty": {
-        "lost": "",
-        "season": null,
-        "round": null,
-        "beat": ["Karate Island"]
     },
     "dying for pie": {
         "lost": "Band Geeks",
@@ -258,6 +276,12 @@ var episodes = {
         "lost": "Wishing You Well",
         "season": 4,
         "round": "1st round"
+    },
+    "gone": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Ditchin'"]
     },
     "good neighbors": {
         "lost": "Enemy-in-Law",
@@ -339,7 +363,7 @@ var episodes = {
         "lost": "",
         "season": null,
         "round": null,
-        "beat": ["Born Again Krabs", "Chocolate with Nuts", "Krusty Krab Training Video", "Krab Borg", "Nasty Patty"],
+        "beat": ["Born Again Krabs", "Chocolate with Nuts", "Krusty Krab Training Video", "Krab Borg", "Nasty Patty", "Krusty Towers"],
         "rank": 1
     },
     "imitation krabs": {
@@ -510,6 +534,12 @@ var episodes = {
         "season": 1,
         "round": "3rd round",
         "beat": ["Suds"]
+    },
+    "nautical novice": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Choir Boys"]
     },
     "neptune's spatula": {
         "lost": "Pizza Delivery",
@@ -759,6 +789,11 @@ var episodes = {
         "season": 3,
         "round": "2nd round"
     },
+    "spongehenge": {
+        "lost": "20,000 Patties Under the Sea",
+        "season": 5,
+        "round": "1st round"
+    },
     "squeaky boots": {
         "lost": "Bubblestand",
         "season": 1,
@@ -876,6 +911,11 @@ var episodes = {
         "season": 4,
         "round": "2nd round"
     },
+    "what ever happened to spongebob?": {
+        "lost": "Atlantis SquarePantis",
+        "season": 5,
+        "round": "1st round"
+    },
     "wigstruck": {
         "lost": "Rule of Dumb",
         "season": 4,
@@ -906,6 +946,8 @@ textInput.oninput = (function(){
     season2Dropdown.style.display = "none";
     season3Dropdown.style.display = "none";
     season4Dropdown.style.display = "none";
+    season5Dropdown.style.display = "none";
+    season6Dropdown.style.display = "none";
     results.style.display = "none";
 })
 
@@ -917,31 +959,57 @@ seasonDropdown.onchange = (function(){
         season2Dropdown.style.display = "none";
         season3Dropdown.style.display = "none";
         season4Dropdown.style.display = "none";
+        season5Dropdown.style.display = "none";
+        season6Dropdown.style.display = "none";
         season = 1;
     } else if(value == 2){
         season2Dropdown.style.display = "block";
         season1Dropdown.style.display = "none";
         season3Dropdown.style.display = "none";
         season4Dropdown.style.display = "none";
+        season5Dropdown.style.display = "none";
+        season6Dropdown.style.display = "none";
         season = 2;
     } else if(value == 3){
         season3Dropdown.style.display = "block";
         season1Dropdown.style.display = "none";
         season2Dropdown.style.display = "none";
         season4Dropdown.style.display = "none";
+        season5Dropdown.style.display = "none";
+        season6Dropdown.style.display = "none";
         season = 3;
     } else if(value == 4){
         season4Dropdown.style.display = "block";
         season1Dropdown.style.display = "none";
         season2Dropdown.style.display = "none";
         season3Dropdown.style.display = "none";
+        season5Dropdown.style.display = "none";
+        season6Dropdown.style.display = "none";
         season = 4;
+    } else if(value == 5){
+        season5Dropdown.style.display = "block";
+        season1Dropdown.style.display = "none";
+        season2Dropdown.style.display = "none";
+        season3Dropdown.style.display = "none";
+        season4Dropdown.style.display = "none";
+        season6Dropdown.style.display = "none";
+        season = 5;
+    } else if(value == 6){
+        season6Dropdown.style.display = "block";
+        season1Dropdown.style.display = "none";
+        season2Dropdown.style.display = "none";
+        season3Dropdown.style.display = "none";
+        season4Dropdown.style.display = "none";
+        season5Dropdown.style.display = "none";
+        season = 6;
     }
     // Sets episode dropdowns to default
     season1Dropdown.value = "default";
     season2Dropdown.value = "default";
     season3Dropdown.value = "default";
     season4Dropdown.value = "default";
+    season5Dropdown.value = "default";
+    season6Dropdown.value = "default";
     // Clears results
     textInput.value = "";
     results.style.display = "none";
@@ -960,6 +1028,14 @@ season3Dropdown.onchange = (function(){
 });
 
 season4Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
+
+season5Dropdown.onchange = (function(){
+    results.style.display = "none"
+});
+
+season6Dropdown.onchange = (function(){
     results.style.display = "none"
 });
 
@@ -1038,6 +1114,10 @@ submitBtn.onclick = (function(event){
         generateResults(season3Dropdown.value);
     } else if(season == 4) {
         generateResults(season4Dropdown.value);
+    } else if(season == 5) {
+        generateResults(season5Dropdown.value);
+    } else if(season == 6) {
+        generateResults(season6Dropdown.value);
     } else {
         generateResults();
     }
