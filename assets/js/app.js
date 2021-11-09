@@ -63,6 +63,12 @@ var episodes = {
         "beat": ["Procrastination", "Something Smells", "Graveyard Shift", "Dying for Pie", "Sailor Mouth"],
         "rank": 1
     },
+    "the battle of bikini bottom": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["A Flea in Her Dome"]
+    },
     "best day ever": {
         "lost": "Krabs vs Plankton",
         "season": 4,
@@ -80,6 +86,11 @@ var episodes = {
         "season": 2,
         "round": "3rd round",
         "beat": ["No Free Rides"]
+    },
+    "boat smarts": {
+        "lost": "Night Light",
+        "season": 5,
+        "round": "1st round"
     },
     "boating school": {
         "lost": "Hall Monitor",
@@ -163,10 +174,21 @@ var episodes = {
         "round": "Quarter-Finals",
         "beat": ["The Smoking Peanut", "Imitation Krabs"]
     },
+    "chum bucket supreme": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["No Hat for Pat"]
+    },
     "clams": {
         "lost": "Nasty Patty",
         "season": 3,
         "round": "2nd round"
+    },
+    "the clash of triton": {
+        "lost": "Komputer Overload",
+        "season": 6,
+        "round": "1st round"
     },
     "club spongebob": {
         "lost": "Just One Bite",
@@ -232,6 +254,11 @@ var episodes = {
         "season": 4,
         "round": "3rd round",
         "beat": ["Karate Island"]
+    },
+    "a flea in her dome": {
+        "lost": "The Battle of Bikini Bottom",
+        "season": 5,
+        "round": "1st round"
     },
     "fools in april": {
         "lost": "Bubblestand",
@@ -406,6 +433,12 @@ var episodes = {
         "season": 4,
         "round": "2nd round"
     },
+    "komputer overload": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["The Clash of Triton"]
+    },
     "krab borg": {
         "lost": "Idiot Box",
         "season": 3,
@@ -559,11 +592,22 @@ var episodes = {
         "round": "2nd round",
         "beat": ["Party Pooper Pants"]
     },
+    "night light": {
+        "lost": "",
+        "season": null,
+        "round": null,
+        "beat": ["Boat Smarts"]
+    },
     "no free rides": {
         "lost": "Big Pink Loser",
         "season": 2,
         "round": "2nd round",
         "beat": ["Grandma's Kisses"]
+    },
+    "no hat for pat": {
+        "lost": "Chum Bucket Supreme",
+        "season": 6,
+        "round": "1st round"
     },
     "no weenies allowed": {
         "lost": "The Camping Episode",
